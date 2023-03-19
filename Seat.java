@@ -9,4 +9,20 @@ public class Seat {
         this.seatNumber = seatNumber;
 
     }
+
+    public void setRowNumber(int rowNumber) {
+        this.rowNumber = rowNumber;
+    }
+
+    public int getRowNumber() {
+        return rowNumber;
+    }
+
+    public void setSeatNumber(int seatNumber) {
+        this.seatNumber = seatNumber;
+    }
+
+    public int getSeatNumber() {
+        return seatNumber;
+    }
 }

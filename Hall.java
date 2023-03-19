@@ -12,4 +12,28 @@ public class Hall{
             this.numSeatsPerRow = numSeatsPerRow;
             this.seats = new boolean[numRows][numSeatsPerRow];
         }
+
+    public void setHallNumber(int hallNumber) {
+        this.hallNumber = hallNumber;
     }
+
+    public int getHallNumber() {
+        return hallNumber;
+    }
+
+    public void setNumRows(int numRows) {
+        this.numRows = numRows;
+    }
+
+    public int getNumRows() {
+        return numRows;
+    }
+
+    public void setNumSeatsPerRow(int numSeatsPerRow) {
+        this.numSeatsPerRow = numSeatsPerRow;
+    }
+
+    public int getNumSeatsPerRow() {
+        return numSeatsPerRow;
+    }
+}
